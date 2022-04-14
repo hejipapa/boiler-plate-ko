@@ -21,7 +21,7 @@ const userSchema = mongoose.Schema({
     role: {
         type: Number,
         default: 1
-    }
+    },
     image : String,
     token: {
         type: String
@@ -33,4 +33,4 @@ const userSchema = mongoose.Schema({
 
 const User = mongoose.model('User', userSchema);
 
-module.exports = {User}
+module.exports = { User }
